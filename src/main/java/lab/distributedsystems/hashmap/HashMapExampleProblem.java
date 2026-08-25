@@ -1,5 +1,7 @@
 package lab.distributedsystems.hashmap;
 
+import lab.distributedsystems.hashmap.problems.FrequencyOfCharacters;
+
 import java.util.HashMap;
 
 public class HashMapExampleProblem {
@@ -28,6 +30,9 @@ public class HashMapExampleProblem {
             System.out.println(key + ": " + value);
         });
 
+
+        //Frequency of Class
+        FrequencyOfCharacters frequencyOfCharacters = new FrequencyOfCharacters(phoneBook,"Emon");
     }
 
 }
