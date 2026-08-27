@@ -2,6 +2,7 @@ package lab.distributedsystems.hashmap;
 
 import lab.distributedsystems.hashmap.problems.CharactersFrequency;
 import lab.distributedsystems.hashmap.problems.FirstUniqueCharacter;
+import lab.distributedsystems.hashmap.problems.TwoSum;
 import lab.distributedsystems.hashmap.problems.WordsFrequency;
 
 public class HashMapExampleProblem {
@@ -39,6 +40,9 @@ public class HashMapExampleProblem {
 
         //First Unique Characters
         FirstUniqueCharacter firstUniqueCharacter = new FirstUniqueCharacter("swiss");
+
+        //Two Sum
+        TwoSum twoSum = new TwoSum(new int[]{2, 7, 3, 1, 8, 4}, 11);
 
     }
 

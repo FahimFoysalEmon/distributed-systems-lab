@@ -22,13 +22,13 @@ public class FirstUniqueCharacter {
 
         System.out.println("Frequency for First Unique: " + freq);
 
-        int min = 1;
+        int uniqueCount = 1;
 
         for (int i = 0; i<word.length() ; i++) {
 
             char c = word.charAt(i);
 
-            if (freq.get(c) == min) {
+            if (freq.get(c) == uniqueCount) {
                 System.out.println("First Unique: " + c);
                 return;
             }
