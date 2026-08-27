@@ -1,9 +1,7 @@
 package lab.distributedsystems.hashmap;
 
-import lab.distributedsystems.hashmap.problems.FrequencyOfCharacters;
-import lab.distributedsystems.hashmap.problems.WordFrequency;
-
-import java.util.HashMap;
+import lab.distributedsystems.hashmap.problems.CharactersFrequency;
+import lab.distributedsystems.hashmap.problems.WordsFrequency;
 
 public class HashMapExampleProblem {
 
@@ -33,10 +31,10 @@ public class HashMapExampleProblem {
 
 
         //Characters frequency of Class
-        FrequencyOfCharacters frequencyOfCharacters = new FrequencyOfCharacters(phoneBook,"Sabbir");
+        CharactersFrequency frequencyOfCharacters = new CharactersFrequency(phoneBook,"Sabbir");
 
         //Word frequency of Class
-        WordFrequency wordFrequency = new WordFrequency("I love java love");
+        WordsFrequency wordFrequency = new WordsFrequency("I love java love");
 
     }
 

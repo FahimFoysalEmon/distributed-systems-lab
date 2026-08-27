@@ -2,9 +2,9 @@ package lab.distributedsystems.hashmap.problems;
 
 import java.util.HashMap;
 
-public class WordFrequency {
+public class WordsFrequency {
 
-    public WordFrequency(String word) {
+    public WordsFrequency(String word) {
 
         HashMap<String, Integer> freq = new HashMap<>();
 

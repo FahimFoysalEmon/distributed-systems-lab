@@ -4,9 +4,9 @@ import lab.distributedsystems.hashmap.PhoneBook;
 
 import java.util.HashMap;
 
-public class FrequencyOfCharacters {
+public class CharactersFrequency {
 
-    public FrequencyOfCharacters(PhoneBook phoneBook, String key){
+    public CharactersFrequency(PhoneBook phoneBook, String key){
         System.out.println("KEY - "+key);
 
         HashMap<Character, Integer> frequency = new HashMap<>();
