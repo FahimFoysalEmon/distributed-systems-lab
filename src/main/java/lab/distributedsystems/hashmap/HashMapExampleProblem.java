@@ -1,6 +1,7 @@
 package lab.distributedsystems.hashmap;
 
 import lab.distributedsystems.hashmap.problems.CharactersFrequency;
+import lab.distributedsystems.hashmap.problems.FirstUniqueCharacter;
 import lab.distributedsystems.hashmap.problems.WordsFrequency;
 
 public class HashMapExampleProblem {
@@ -35,6 +36,9 @@ public class HashMapExampleProblem {
 
         //Word frequency of Class
         WordsFrequency wordFrequency = new WordsFrequency("I love java love");
+
+        //First Unique Characters
+        FirstUniqueCharacter firstUniqueCharacter = new FirstUniqueCharacter("swiss");
 
     }
 
