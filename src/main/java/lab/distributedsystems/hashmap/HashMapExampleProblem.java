@@ -32,7 +32,7 @@ public class HashMapExampleProblem {
 
 
         //Frequency of Class
-        FrequencyOfCharacters frequencyOfCharacters = new FrequencyOfCharacters(phoneBook,"Emon");
+        FrequencyOfCharacters frequencyOfCharacters = new FrequencyOfCharacters(phoneBook,"Sabbir");
     }
 
 }
