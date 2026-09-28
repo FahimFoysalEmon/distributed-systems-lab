@@ -1,9 +1,6 @@
 package lab.distributedsystems.hashmap;
 
-import lab.distributedsystems.hashmap.problems.CharactersFrequency;
-import lab.distributedsystems.hashmap.problems.FirstUniqueCharacter;
-import lab.distributedsystems.hashmap.problems.TwoSum;
-import lab.distributedsystems.hashmap.problems.WordsFrequency;
+import lab.distributedsystems.hashmap.problems.*;
 
 public class HashMapExampleProblem {
 
@@ -43,6 +40,12 @@ public class HashMapExampleProblem {
 
         //Two Sum
         TwoSum twoSum = new TwoSum(new int[]{2, 7, 3, 1, 8, 4}, 11);
+
+        //Sum of Unique Numbers
+        SumOfUniqueNumbers sumOfUniqueNumbers = new SumOfUniqueNumbers();
+        sumOfUniqueNumbers.sumOfUniqueNumbers(new int[]{1,2,3,2});
+        sumOfUniqueNumbers.sumOfUniqueNumbers(new int[]{1,2,3,4,5});
+        sumOfUniqueNumbers.sumOfUniqueNumbers(new int[]{1,1,1,1,1});
 
     }
 
