@@ -47,6 +47,14 @@ public class HashMapExampleProblem {
         sumOfUniqueNumbers.sumOfUniqueNumbers(new int[]{1,2,3,4,5});
         sumOfUniqueNumbers.sumOfUniqueNumbers(new int[]{1,1,1,1,1});
 
+
+        //Plus One
+        PlusOne plusOne = new PlusOne();
+        int[] plusOneArr = plusOne.plusOne(new int[]{1, 2, 3});
+        for (int i : plusOneArr) {
+            System.out.println(i);
+        }
+
     }
 
 }
